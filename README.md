@@ -1,6 +1,7 @@
 # builds
 
 Repozytorium z gotowymi buildami pakietow.
+Dotyczy projektu `gsplat`: https://github.com/nerfstudio-project/gsplat
 
 ## Zawartosc
 
