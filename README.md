@@ -11,16 +11,18 @@ Aktualnie repo zawiera wheel'e `gsplat` dla Windows:
 
 ## Instalacja (lokalnie z pliku)
 
+Uzyj `--no-deps`, zeby `pip` nie nadpisal zaleznosci (np. `torch`) nieodpowiednim buildem bez CUDA.
+
 PowerShell, Python 3.12:
 
 ```powershell
-python -m pip install .\gsplat\win\gsplat-1.5.3-cu130-cp312-win_amd64.whl
+python -m pip install --no-deps .\gsplat\win\gsplat-1.5.3-cu130-cp312-win_amd64.whl
 ```
 
 PowerShell, Python 3.14:
 
 ```powershell
-python -m pip install .\gsplat\win\gsplat-1.5.3-cu130-cp314-win_amd64.whl
+python -m pip install --no-deps .\gsplat\win\gsplat-1.5.3-cu130-cp314-win_amd64.whl
 ```
 
 ## Wymagania
